@@ -3,6 +3,7 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .header{
@@ -10,15 +11,15 @@ html, body{
     max-width: 100%;
     justify-content: space-around;
     flex-direction: row;
-    background-color: rgb(93, 93, 93);
+    background-color: rgb(80, 80, 80);
     height: 3.5vw;
     align-items: center;
 
 }
 
 .container-1 img{
-   max-width: 30%;
-   max-height: 30%;
+    max-width: 30%;
+    max-height: 30%;
 }
 
 .container-1{
@@ -82,7 +83,7 @@ html, body{
     color: white;
     max-width: 40%;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     float: right;
     top: 40%;
     margin-right: 7vw;
