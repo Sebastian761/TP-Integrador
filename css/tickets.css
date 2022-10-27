@@ -1,0 +1,163 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    max-width: 100%;
+    justify-content: left;
+    background-color: rgb(70, 74, 74);
+    height: 3.5vw;
+    align-items: center;
+
+}
+
+.container-1{
+    color: white;
+    font-size: 120%;
+    margin-left: 1.5em;
+    margin-right: 22em;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    font-weight: 425;
+}
+
+.nav{
+    width: 60%;
+    justify-content: right;
+}
+
+.container-2 a{
+    color: white;
+    font-size: 100%;
+    margin: 1vw;
+    text-decoration: none;
+
+}
+
+.container-3 > a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0.75vw;
+}
+
+.containers a{
+    color: rgb(157, 157, 157);
+    font-size: 100%;
+    margin: 0.75vw;
+    text-decoration: none;
+
+}
+
+.container-6 a{
+    color: rgb(0, 225, 0);
+    margin-right: 0.75vw;
+    text-decoration: none;
+}
+
+.contenedorcito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+    width: 100%;
+}
+
+div .card-body{
+    padding: 0.5em;
+    line-height: 2.5em;
+}
+.contenedorcito .card{
+    width: 15%;
+    height: 75%;
+    text-align: center;
+    padding: 0;
+}
+
+.contenedorcito .estudiante{
+    border-color: rgb(0, 60, 250);
+}
+
+.contenedorcito .trainee{
+    border-color: rgb(0, 150, 250);
+}
+
+.contenedorcito .junior{
+    border-color: #FFC30F;
+}
+
+.contenedorcito .card{
+    margin: 1em .2em;
+    border-radius: 0;
+}
+
+section form{
+    height: 400px;
+}
+
+form .row{
+    justify-content: center;
+    width: 100%;
+}
+
+.row .textito{
+    margin-top: .5em;
+    margin-bottom: .3em;
+}
+
+.texto{
+    line-height: 0;
+    text-align: center;
+}
+
+#nombre, #apellido, #cantidad, #seleccion, #correo, #total{
+    width: 100%;
+    margin: .5em;
+    border-radius: .2em;
+}
+
+.textito label{
+    position: relative;
+    left: .5em;
+}
+
+span #total{
+    background-color: lightblue;
+    padding: .8em;
+}
+
+#total::placeholder{
+    color: rgb(77, 77, 196);
+}
+
+div .btn{
+    margin-top: 1.5em;
+    width: 100%;
+    background-color: #91c24d;
+    border-color: #91c24d;
+}
+
+.botones{
+    justify-content: center;
+}
+
+footer .footer{
+    margin-top: 15px;
+    width: 100%;
+    height: 5.5em;
+    background-color: rgb(56, 79, 96);
+    justify-content: space-evenly;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+

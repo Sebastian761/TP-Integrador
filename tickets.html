@@ -4,25 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/tickets.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <article class="container-1"><img src="./img/codoacodo.png">   Conf Bs As</article>
-        <section class="section">
-            <article class="container-2"><a href="#">La conferencia</a></article>
+        <article class="container-1">Conf Bs As</article>
+        <section class="section nav">
+            <article class="containers"><a href="./index.html" target="_blank">La conferencia</a></article>
             <article class="containers"><a href="#">Los oradores</a></article>
             <article class="containers"><a href="#">El lugar y la fecha</a></article>
-            <article class="containers"><a href="#">Conviértete en orador</a></article>
+            <article class="container-2"><a href="#">Conviértete en orador</a></article>
             <article class="container-6"><a href="#">Compra tickets</a></article>
         </section>
     </header>
+<main class="main">
+    <div class="contenedorcito">
+        <div class="card estudiante">
+            <div class="card-body">
+                <h4 class="card-title">Estudiante</h4>
+                <p class="card-text">Tienen un descuento</p>
+                <h5>80%</h5>
+                <p>* presentar documentacion</p>
+            </div>
+        </div>
+        <div class="card trainee">
+            <div class="card-body">
+                <h4 class="card-title">Trainee</h4>
+                <p class="card-text">Tienen un descuento</p>
+                <h5>50%</h5>
+                <p>* presentar documentacion</p>
+            </div>
+        </div>
+        <div class="card junior">
+            <div class="card-body">
+                <h4 class="card-title">Junior</h4>
+                <p class="card-text">Tienen un descuento</p>
+                <h5>15%</h5>
+                <p>* presentar documentacion</p>
+            </div>
+        </div>
+    </div>
+        <div class="texto">
+            <p>VENTA</p>
+            <h1>VALOR DE TICKET $200</h1>
+        </div>
+        <form action="#">
+            <section class="row">
+                <div class="col-3">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="col-3">
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-6">
+                    <input type="email" class="form-control" id="correo" placeholder="Correo">
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-3 textito">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" class="form-control"id="cantidad" placeholder="cantidad">
+                </div>
+                <div class="col-3 textito" >
+                    <label for="seleccion">Categoria</label>
+                    <select class="form-select" id="seleccion">
+                        <option value="">--Elija una categoria--</option>
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                    </select>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-6">
+                    <span>
+                        <input type="text" class="form-control" readonly id="total" placeholder="Total a pagar: $">
+                    </span>
+                </div>
+            </section>
+        </form> 
+        <section class="row botones">
+            <div class="col-3">    
+                <button type="button" class="btn btn-success" id="borrar">Borrar</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success" id="resumen">Resumen</button>
+            </div>
+        </section>
+</main>
 
-
-    <footer class="row">
-        <article class="container-sm">
+    <footer>
             <section class="section footer">
                 <article class="contenedor"><a href="#">Preguntas <br> frecuentes</a></article>
                 <article class="contenedor"><a href="#">Contáctanos</a></article>
@@ -32,10 +107,9 @@
                 <article class="contenedor"><a href="#">Privacidad</a></article>
                 <article class="contenedor"><a href="#">Estudiantes</a></article>
             </section>
-        </article>
     </footer>
 
-
+    <script src="./js/compra_tickets.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
