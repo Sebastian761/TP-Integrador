@@ -37,6 +37,7 @@ function borrar(){
     document.getElementById('correo').value = '';
     document.getElementById('cantidad').value = '';
     document.getElementById('seleccion').value = '';
+    document.getElementById('total').placeholder = 'Total a pagar: $ ';
 }
 
 botonResumen = document.getElementById('resumen');
